@@ -1,0 +1,115 @@
+@import 'config';
+@import 'header';
+
+
+//home page
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+        background: $background-color;
+        color: $primary-color;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.5;
+        position: relative;
+        &#bg-image{
+            background: $home-image;
+            background-attachment: fixed;
+            background-position: center;
+            position: fixed;
+            &::after{
+                    content: "";
+                    position: fixed;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    width: 100%;
+                    height: 100%;
+                    z-index: -1;
+                    background: rgba($background-color, $background-opacity);
+                    background-size: cover;
+            }
+        }
+}
+
+main{
+    &.show{
+        visibility: visible;
+        opacity: 1;
+        @include easeInShow;
+    }
+    &.hide{
+        visibility: hidden;
+        opacity: 0;
+        @include easeOutHide;
+    }
+    &#home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        .lg-heading{
+            font-size: 3em;
+            margin-top: 40vh;
+            letter-spacing: 0.1em;
+            text-align: center;
+            position: relative;
+            @include tdText;
+
+            //name animation
+            .firstname{
+                @include flicker1;
+            }
+            .lnKu{
+                position: relative;
+                @include dropText1;
+                // @include flicker;
+            }
+            .lnBerlin{
+                position: relative;
+                @include dropText2;
+            }
+            .lnOV{
+                position: relative;
+                @include dropText3;
+            }
+        }
+        .sm-heading{
+            font-size: 1.5em;
+            @include tdText;
+            @include flicker2;
+        }
+    }
+
+    &#about{
+        display: flex;
+        flex-direction: row;
+        .about-branding{
+           width: 40%;
+           height: 100vh;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           img{
+            width: 260px;
+            height: 250px;
+            border-radius: 60%;
+           }
+        }
+        .about-me{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            width: 50%;
+            height: 100vh;
+            padding: 2em;
+        }
+    }
+}

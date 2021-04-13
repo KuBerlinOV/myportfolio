@@ -1,0 +1,120 @@
+$home-image: url(../images/background.jpg);
+$background-color: rgb(27, 24, 24);
+$primary-color: rgb(255, 255, 255);
+$secondary-color: rgb(153, 153, 49);
+$background-opacity: 0.9;
+
+
+//menu animation
+
+@mixin easeInShow{
+    transition: opacity 1s ease-in 0s, visibility 0s linear 0s;
+};
+
+@mixin easeOutHide{
+    transition: opacity 0.5s ease-in 0s, visibility 0s linear 0.5s;
+}
+
+//title animation on a first page load
+
+@mixin flicker1{
+    animation: flicker1 2s ease-in;
+    @keyframes flicker1 {
+        0%{
+            opacity: 0;
+        }
+        25%{
+            opacity: 0.3;
+        }
+        50%{
+            opacity: 0.1;
+        }
+        65%{
+            opacity: 0
+        }
+        80%{
+            opacity: 0.3;
+        }
+        90%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+}
+
+@mixin flicker2{
+    animation: flicker2 4.5s ease-in;
+    @keyframes flicker2 {
+        0%{
+            opacity: 0;
+        }
+        90%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+}
+
+@mixin dropText1{
+    animation: droptext 3s ease-out 0s;
+    @keyframes droptext {
+        0%{
+            bottom: 20vh;
+            opacity: 0;
+        }
+        50%{
+            bottom: 20vh;
+            opacity: 0;
+        }
+        100%{
+            bottom: 0;
+            opacity: 1;
+        }
+    }
+}
+
+@mixin dropText2{
+    animation: droptext 4s ease-out 0s;
+    @keyframes droptext {
+        0%{
+            bottom: 20vh;
+            opacity: 0;
+        }
+        50%{
+            bottom: 20vh;
+            opacity: 0;
+        }
+        100%{
+            bottom: 0;
+            opacity: 1;
+        }
+    }
+}
+
+
+@mixin dropText3{
+    animation: droptext 5s ease-out 0s;
+    @keyframes droptext {
+        0%{
+            bottom: 20vh;
+            opacity: 0;
+        }
+        50%{
+            bottom: 20vh;
+            opacity: 0;
+        }
+        100%{
+            bottom: 0;
+            opacity: 1;
+        }
+    }
+}
+//text-shadow
+
+@mixin tdText {
+    text-shadow: #bbb 0 0 1px, #fff 0 -1px 2px, #fff 0 -3px 2px, rgba(0,0,0,0.8) 0 30px 25px;
+}
