@@ -61,7 +61,7 @@ main{
             letter-spacing: 0.1em;
             text-align: center;
             position: relative;
-            @include tdText;
+            // @include tdText;
 
             //name animation
             .firstname{
@@ -70,7 +70,6 @@ main{
             .lnKu{
                 position: relative;
                 @include dropText1;
-                // @include flicker;
             }
             .lnBerlin{
                 position: relative;
@@ -83,7 +82,7 @@ main{
         }
         .sm-heading{
             font-size: 1.5em;
-            @include tdText;
+            // @include tdText;
             @include flicker2;
         }
     }

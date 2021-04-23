@@ -1,11 +1,14 @@
 import React from 'react';
 import Header from './Header';
 
-const Projects = () => {
+const Projects = ({ showMenu }) => {
 
     return (
         <div>
-            <div>My projects:</div>
+            <main className={`${showMenu === true ? 'hide' : 'show'}`} id="about">
+
+                <h2>My Projects</h2>
+            </main>
         </div>
     )
 

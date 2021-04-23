@@ -7,7 +7,8 @@ import Home from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects';
 import MyContacts from './components/Contact';
-import NotFoundPage from './components/NotFoundPage'
+import NotFoundPage from './components/NotFoundPage';
+import Header from './components/Header'
 
 const App = (props) => {
     const [showMenu, setShowMenu] = useState(false)
@@ -25,34 +26,12 @@ const App = (props) => {
 
         <BrowserRouter>
             <div>
-                <header>
-                    <div onClick={handleShowMenu} class={`menu-btn ${showMenu === true && 'close'}`}>
-                        <div class="btn-line"></div>
-                        <div class="btn-line"></div>
-                        <div class="btn-line"></div>
-                    </div>
-                    <nav className={`menu ${showMenu === false ? 'hide' : 'show'}`} >
-                        <ul class="menu-nav">
-                            <li class="nav-item">
-                                <NavLink onClick={handleShowMenu} to="/">Home</NavLink>
-                            </li>
-                            <li class="nav-item">
-                                <NavLink onClick={handleShowMenu} to="/about">About</NavLink>
-                            </li>
-                            <li class="nav-item">
-                                <NavLink onClick={handleShowMenu} to="/projects">Projects</NavLink>
-                            </li>
-                            <li class="nav-item">
-                                <NavLink onClick={handleShowMenu} to="/contacts">How to Reach Me</NavLink>
-                            </li>
-                        </ul>
-                    </nav>
-                </header>
+                <Header handleShowMenu={handleShowMenu} showMenu={showMenu} />
                 <Switch>
-                    <Route path='/' render={(props) => <Home {...props} />} exact={true} />
-                    <Route path='/about' component={About} />
-                    <Route path='/projects' component={Projects} />
-                    <Route path='/contacts' component={MyContacts} />
+                    <Route path='/' exact={true} render={(props) => <Home {...props} showMenu={showMenu} />} />
+                    <Route path='/about' render={(props) => <About {...props} showMenu={showMenu} />} />
+                    <Route path='/projects' render={(props) => <Projects {...props} showMenu={showMenu} />} />
+                    <Route path='/contacts' render={(props) => <MyContacts {...props} showMenu={showMenu} />} />
                     <Route component={NotFoundPage} />
                 </Switch>
             </div>

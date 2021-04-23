@@ -2,11 +2,11 @@ import React from 'react';
 import portrait from '../images/portrait.jpg'
 import Header from './Header'
 
-const About = () => {
+const About = ({ showMenu }) => {
 
     return (
         <div>
-            <main class="show" id="about">
+            <main className={`${showMenu === true ? 'hide' : 'show'}`} id="about">
 
                 <div class="about-branding">
                     <img src={portrait} alt="myportrait" />

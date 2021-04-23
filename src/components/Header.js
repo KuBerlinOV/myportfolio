@@ -1,21 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-const Header = () => {
-    //states
-    const [showMenu, setShowMenu] = useState(false)
-
-    //handlers
-    const handleShowMenu = () => {
-        if (showMenu === false) {
-            setShowMenu(true)
-        } else {
-            setShowMenu(false)
-        }
-    }
-
-
-
+const Header = ({ handleShowMenu, showMenu }) => {
     return (
         <header>
             <div onClick={handleShowMenu} class={`menu-btn ${showMenu === true && 'close'}`}>
