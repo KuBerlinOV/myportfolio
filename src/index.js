@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/main.scss';
 
-import PageRouter from './routers/pagerouter';
+import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <PageRouter />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

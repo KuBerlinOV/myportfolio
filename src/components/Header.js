@@ -14,9 +14,11 @@ const Header = () => {
         }
     }
 
+
+
     return (
         <header>
-            <div onClick={handleShowMenu} class="menu-btn">
+            <div onClick={handleShowMenu} class={`menu-btn ${showMenu === true && 'close'}`}>
                 <div class="btn-line"></div>
                 <div class="btn-line"></div>
                 <div class="btn-line"></div>
