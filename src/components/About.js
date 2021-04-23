@@ -6,7 +6,6 @@ const About = () => {
 
     return (
         <div>
-            <Header />
             <main class="show" id="about">
 
                 <div class="about-branding">

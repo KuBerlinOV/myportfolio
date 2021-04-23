@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch, NavLink } from 'react-router-dom';
 
 //importing components
 
@@ -8,15 +8,19 @@ import About from './components/About';
 import Projects from './components/Projects';
 import MyContacts from './components/Contact';
 import NotFoundPage from './components/NotFoundPage'
-import Header from './components/Header';
 
 const App = (props) => {
-    const [showPage, setShowPage] = useState(false)
+    const [showMenu, setShowMenu] = useState(false)
 
-    //getting the state from the header component, setting the logic of setShowPage depending on this data
-    const handleShowPage = (showMenu) => {
-        console.log(showMenu)
+    //handlers
+    const handleShowMenu = () => {
+        if (showMenu === false) {
+            setShowMenu(true)
+        } else {
+            setShowMenu(false)
+        }
     }
+
     return (
 
         <BrowserRouter>
