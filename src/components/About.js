@@ -6,14 +6,14 @@ const About = ({ showMenu }) => {
 
     return (
         <div>
-            <main className={`${showMenu === true ? 'hide' : 'show'}`} id="about">
+            <main className={` ${showMenu === true ? "hide" : "show"}`} id="about">
 
-                <div class="about-branding">
+                <div className="about-branding">
                     <img src={portrait} alt="myportrait" />
                 </div>
-                <div class="about-me">
-                    <h2 class="about-me-title">Let me introduce myself:</h2>
-                    <p class="about-me-text">I am a self-taught web developer born in the Republic of Kalmykia in Russia and
+                <div className="about-me">
+                    <h2 className="about-me-title md-heading">Let me introduce myself:</h2>
+                    <p className="about-me-text">I am a self-taught web developer born in the Republic of Kalmykia in Russia and
                     lived in Elista, Moscow, Taipei and Berlin.
                     Before beginning my journey in tech, I studied art theory and art history as well
                     as pursued career of a musician as the frontman, singer and bass player of the Moscow based

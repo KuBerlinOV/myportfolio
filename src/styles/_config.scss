@@ -2,7 +2,7 @@ $home-image: url(../images/background.jpg);
 $background-color: rgb(27, 24, 24);
 $primary-color: rgb(255, 255, 255);
 $secondary-color: rgb(153, 153, 49);
-$background-opacity: 0.9;
+$background-opacity: 0.92;
 
 
 //menu animation
@@ -13,6 +13,22 @@ $background-opacity: 0.9;
 
 @mixin easeOutHide{
     transition: opacity 0.4s ease-in 0s, visibility 0s linear 0.5s;
+}
+
+//easeInShow animation of the page on the page load
+@mixin easeInPage{
+    animation: showPage 0.7s ease-in;
+    @keyframes showPage {
+        0%{
+            opacity: 0;
+        }
+        50%{
+            opacity: 0.5;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
 }
 
 //title animation on a first page load

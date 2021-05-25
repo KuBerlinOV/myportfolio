@@ -23,7 +23,6 @@ const App = (props) => {
     }
 
     return (
-
         <BrowserRouter>
             <div>
                 <Header handleShowMenu={handleShowMenu} showMenu={showMenu} />

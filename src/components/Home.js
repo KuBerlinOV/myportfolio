@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from './Header'
 
 const Home = ({ showMenu }) => {
     return (
@@ -11,7 +10,7 @@ const Home = ({ showMenu }) => {
                 </h1>
 
                 <h2 class="sm-heading">
-                    Web-Developer
+                    Front-end Developer
         </h2>
                 <div class="icons">
                     <a href="">
