@@ -4,7 +4,7 @@ import Header from './Header'
 const MyContacts = ({ showMenu }) => {
     return (
         <div>
-            <main className={`${showMenu === true ? 'hide' : 'show'}`} id="about">
+            <main className={`${showMenu === true ? 'hide' : 'show'}`} id="contact">
                 <h2>How to Reach Me</h2>
             </main>
         </div>
