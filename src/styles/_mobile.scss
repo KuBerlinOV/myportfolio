@@ -1,0 +1,108 @@
+//Widescreens
+@include mediaXl {
+ 
+};
+
+//Desktops and Laptops
+@include mediaLg {
+   main{
+       &#about{
+           .about-me{
+               .about-me-title{
+                   margin-top: -1em;
+               }
+               .about-me-text{
+                   font-size: 0.8em;
+               }
+           }
+       }
+   }
+};
+
+//Tablets and small Laptops
+
+@include mediaMd {
+    main{
+        &#about{
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            height: 100vh;
+            &::after{
+                background: linear-gradient($background-color 19%, white 22%, white 96%, $background-color 98%);
+            }
+            .about-branding{
+                height: 25vh;
+                width: 100%;
+                margin-top: 2em;
+                img{
+                    width: 160px;
+                   height: 150px;
+                }
+            }
+            .about-me{
+                height: 75vh;
+                width: 100%;
+                padding: 0;
+                margin: 1em 0 1em 0;
+                justify-content: flex-start;
+                .about-me-title{
+                    color: $background-color;
+                    text-align: center;
+                    font-size: 1.6em;
+                    margin: 0 0.3em 0 0.3em;
+                }
+                .about-me-text{
+                    margin: 2em 1em 0 1em;
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+    
+
+
+};
+
+//Smarthphones
+
+@include mediaSm {
+main{
+    &#about{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+        &::after{
+            background: linear-gradient($background-color 19%, white 22%, white 96%, $background-color 98%);
+        }
+        .about-branding{
+            height: 20vh;
+            width: 100%;
+            margin-top: 1.5em;
+            img{
+                width: 120px;
+               height: 110px;
+            }
+        }
+        .about-me{
+            height: 80vh;
+            width: 100%;
+            padding: 0;
+            justify-content: flex-start;
+            margin-bottom: 1em;
+            .about-me-title{
+                color: $background-color;
+                text-align: center;
+                font-size: 1.2em;
+                width: 90%;
+            }
+            .about-me-text{
+                margin: 0 1em 0 1em;
+                font-size: 0.75em;
+            }
+        }
+    }
+}
+
+}

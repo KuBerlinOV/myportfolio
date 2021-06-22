@@ -10,7 +10,7 @@ const Home = ({ showMenu }) => {
                 </h1>
 
                 <h2 class="sm-heading">
-                    Front-end Developer
+                    Front-End Web Developer
         </h2>
                 <div class="icons">
                     <a href="">

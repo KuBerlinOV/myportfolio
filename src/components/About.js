@@ -12,21 +12,23 @@ const About = ({ showMenu }) => {
                     <img src={portrait} alt="myportrait" />
                 </div>
                 <div className="about-me">
-                    <h2 className="about-me-title md-heading">Let me introduce myself:</h2>
-                    <p className="about-me-text">I am a self-taught web developer born in the Republic of Kalmykia in Russia and
-                    lived in Elista, Moscow, Taipei and Berlin.
-                    Before beginning my journey in tech, I studied art theory and art history as well
-                    as pursued career of a musician as the frontman, singer and bass player of the Moscow based
-                    indie-rock
-                    band Bubbles&ZePieretta. In 2016 I moved to Berlin to do my PhD studies and conduct the research on
-                    the
-                    Soviet architecture.
-                    It was during the work on my doctoral thesis in 2020 when I was exposed to programming and began to
-                    teach coding myself with the help of FreeCodeCamp, Codecademy and various youtube tutorials.
-                    Coding became my passion. It offered me something, what my research and PhD studies could not,
-                    that
-                    is a room for creativity, constant learning and challenging tasks. Since then I decided
-                to change my career and become a web developer.</p>
+                    <h2 className="about-me-title md-heading">Hey there, my name is Basan!</h2>
+                    <p className="about-me-text">I am from the steppe region in the southern part of Russia, Kalmykia
+                    but currently based in Berlin.
+                    For the past five years I have been doing my PhD studies in Berlin and Jena researching
+                    the history of Soviet architecture.
+                    During the coronavirus pandemic I seized an opportunity to dive into a long-time passion of web development and coding.
+                    Now I can proudly say that I have changed my career from the junior researcher to front end web developer.
+                    My language of choice is Javascript and I find myself comfortable using React, SASS and Firebase.
+                    I also have expirience in backend development with NodeJS, Express, MongoDB,
+                    and I am always keen to learn new technologies.
+                    Apart from sitting in front of
+                    Visual Studio Code and coding, you can also often find me
+                    writing the electronic music, playing drums,
+                    riding a long board or refurbishing old bikes, and more coding.
+                    Thank you for visiting my portfolio!
+                    I am a very open person so please don't hesitate to reach out
+                    if you would like to know more!</p>
                 </div>
             </main>
         </div>
