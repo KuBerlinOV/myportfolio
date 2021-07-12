@@ -14,21 +14,19 @@ const About = ({ showMenu }) => {
                 <div className="about-me">
                     <h2 className="about-me-title md-heading">Hey there, my name is Basan!</h2>
                     <p className="about-me-text">I am from the steppe region in the southern part of Russia, Kalmykia
-                    but currently based in Berlin.
-                    For the past five years I have been doing my PhD studies in Berlin and Jena researching
-                    the history of Soviet architecture.
-                    During the coronavirus pandemic I seized an opportunity to dive into a long-time passion of web development and coding.
-                    Now I can proudly say that I have changed my career from the junior researcher to front end web developer.
-                    My language of choice is Javascript and I find myself comfortable using React, SASS and Firebase.
-                    I also have expirience in backend development with NodeJS, Express, MongoDB,
-                    and I am always keen to learn new technologies.
-                    Apart from sitting in front of
-                    Visual Studio Code and coding, you can also often find me
-                    writing the electronic music, playing drums,
-                    riding a long board or refurbishing old bikes, and more coding.
-                    Thank you for visiting my portfolio!
-                    I am a very open person so please don't hesitate to reach out
-                    if you would like to know more!</p>
+                        but currently based in Berlin.
+                        For the past five years I have been doing my PhD studies in Berlin and Jena researching
+                        the history of Soviet architecture.
+                        During the coronavirus pandemic I seized an opportunity to dive into a long-time passion of web development and coding.
+                        Now I can proudly say that I have changed my career from the junior researcher to the full stack web developer with a strong front end focus.
+                        My language of choice is Javascript and I find myself comfortable using React, SASS, Firebase, NodeJS, Express and MongoDB. However, I am always keen to learn new technologies.
+                        Apart from sitting in front of
+                        Visual Studio Code and coding, you can also often find me
+                        writing the electronic music, playing drums,
+                        riding a long board or refurbishing old bikes, and more coding.
+                        Thank you for visiting my portfolio!
+                        I am a very open person so please don't hesitate to reach out
+                        if you would like to know more!</p>
                 </div>
             </main>
         </div>

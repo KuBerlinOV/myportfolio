@@ -8,20 +8,13 @@ const Home = ({ showMenu }) => {
                     <span class="firstname">Basan</span> <span class="lnKu">Ku</span><span class="lnBerlin">berlin</span><span
                         class="lnOV">ov</span>
                 </h1>
-
                 <h2 class="sm-heading">
-                    Front-End Web Developer
-        </h2>
+                    Full Stack Web Developer
+                </h2>
                 <div class="icons">
-                    <a href="">
-                        <i class="fab fa-linkedin fa-2x"></i>
-                    </a>
-                    <a href="">
-                        <i class="fab fa-github fa-2x"></i>
-                    </a>
-                    <a href="">
-                        <i class="fab fa-facebook fa-2x"></i>
-                    </a>
+                    <a target='_blank' href='https://github.com/KuBerlinOV'><i class="fab fa-2x fa-github-square icon"></i></a>
+                    <a target='_blank' href='https://www.linkedin.com/in/basan-kuberlinov-637170166/'><i class="fab fa-2x fa-linkedin icon"></i></a>
+                    <a target='_blank' href='https://www.facebook.com/basan.kuberlinov'><i class="fab fa-2x fa-facebook-square icon"></i></a>
                 </div>
             </main>
         </div>

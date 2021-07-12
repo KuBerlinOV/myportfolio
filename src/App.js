@@ -10,7 +10,7 @@ import MyContacts from './components/Contact';
 import NotFoundPage from './components/NotFoundPage';
 import Header from './components/Header'
 
-const App = (props) => {
+const App = () => {
     const [showMenu, setShowMenu] = useState(false)
 
     //handlers

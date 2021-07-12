@@ -103,6 +103,16 @@ main{
             }
         }
     }
+    &#projects{
+        .ls-projects{
+            flex-direction: column;
+            .project-card{
+                top: 42em;
+                width: 98%;
+                font-size: 0.7em;
+            }
+        }
+    }
 }
 
 }
