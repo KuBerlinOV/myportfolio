@@ -12,10 +12,10 @@ const Projects = ({ showMenu }) => {
                         <div className='project-img2' alt='busking-radar-page' src='' />
                         <h2 className='hd-md'>Busking Radar</h2>
                         <p className="project-info">
-                            Busking Radar is the final group project which was created in order to complete the Berlin TechLabs Bootcamp.
+                            Busking Radar is the final group project created in order to complete the Berlin TechLabs Bootcamp.
                             The team disciplines included UX/UI design, Web Development, and Data Science. All disciplines were
-                            put into practice to develop Busking Radar. My
-                            Using interactive map for displaying street performances the Busking Radar makes outdoor
+                            put into practice to develop Busking Radar. By
+                            using interactive map for displaying street performances the Busking Radar makes outdoor
                             live entertainment easily discoverable for any user and helps buskers draw
                             a larger audience to their performances.
 
