@@ -18,11 +18,11 @@ const About = ({ showMenu }) => {
                         For the past five years I have been doing my PhD studies in Berlin and Jena researching
                         the history of Soviet architecture.
                         During the coronavirus pandemic I seized an opportunity to dive into a long-time passion of web development and coding.
-                        Now I can proudly say that I have changed my career from the junior researcher to the full stack web developer with a strong front end focus.
-                        My language of choice is Javascript and I find myself comfortable using React, SASS, Firebase, NodeJS, Express and MongoDB. However, I am always keen to learn new technologies.
+                        Now I can proudly say that I have changed my career from the junior researcher to the full stack web developer with a frontend focus.
+                        My language of choice is Javascript and I find myself comfortable using React, SASS, Firebase, NodeJS, Express, GrahpQL, MySQL and MongoDB. However, I am always keen to learn new technologies.
                         Apart from sitting in front of
                         Visual Studio Code and coding, you can also often find me
-                        writing the electronic music, playing drums,
+                        writing electronic music, playing drums,
                         riding a long board or refurbishing old bikes, and more coding.
                         Thank you for visiting my portfolio!
                         I am a very open person so please don't hesitate to reach out
