@@ -9,7 +9,7 @@ const Home = ({ showMenu }) => {
                         class="lnOV">ov</span>
                 </h1>
                 <h2 class="sm-heading">
-                    Full Stack Web Developer
+                    Frontend Developer
                 </h2>
             </main>
         </div>
