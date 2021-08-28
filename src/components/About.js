@@ -18,7 +18,7 @@ const About = ({ showMenu }) => {
                         For the past five years I have been doing my PhD studies in Berlin and Jena researching
                         the history of Soviet architecture.
                         During the coronavirus pandemic I seized an opportunity to dive into a long-time passion of web development and coding.
-                        Now I can proudly say that I have changed my career from the junior researcher to the front end developer.
+                        Now I can proudly say that I have changed my career from a junior researcher to frontend developer.
                         My language of choice is Javascript and I find myself comfortable using React, SASS, Firebase, NodeJS, Express, GrahpQL, MySQL and MongoDB. However, I am always keen to learn new technologies.
                         Apart from sitting in front of
                         Visual Studio Code and coding, you can also often find me
