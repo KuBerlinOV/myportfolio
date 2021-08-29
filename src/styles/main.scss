@@ -16,6 +16,15 @@ body{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         line-height: 1.5;
         position: relative;
+        // div#root{
+        //     height: 100%;
+        // width: 100%;
+        // }
+        .md-heading{
+            font-weight: 900;
+            font-size: 1.4rem;
+            
+        }
         &#bg-image{
             background: $home-image;
             background-attachment: fixed;
@@ -185,9 +194,7 @@ main{
             opacity: 0.9;
             background-size: cover;
         }
-        h1#title-projects{
-            margin: 0.3em 0 3em 0;
-        }
+        
         .ls-projects{
             display: flex;
             flex-direction: column;

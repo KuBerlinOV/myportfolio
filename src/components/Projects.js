@@ -6,7 +6,7 @@ const Projects = ({ showMenu }) => {
     return (
         <div>
             <main className={`${showMenu === true ? 'hide' : 'show'}`} id="projects">
-                <h1 id='title-projects' className='lg-leading'>Projects</h1>
+                <h2 className='md-heading'>Projects</h2>
                 <div id='ls-projects' className='ls-projects'>
                     <div className="project-card">
                         <div className='project-img2' alt='busking-radar-page' src='' />

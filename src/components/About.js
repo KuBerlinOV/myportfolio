@@ -11,7 +11,7 @@ const About = ({ showMenu }) => {
                     <img src={portrait} alt="myportrait" />
                 </div>
                 <div className="about-me">
-                    <h2 className="about-me-title md-heading">Hey there, my name is Basan!</h2>
+                    <h2 className="md-heading about-me-title">Hey there, my name is Basan!</h2>
                     <p className="about-me-text">I am from the steppe region in the southern part of Russia, Kalmykia
                         but currently based in Berlin.
                         For the past five years I have been doing my PhD studies in Berlin and Jena researching

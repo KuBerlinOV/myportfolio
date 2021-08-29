@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 
-const Header = ({ handleShowMenu, showMenu }) => {
-    const innerWidth = window.innerWidth
+const Header = ({ handleShowMenu, showMenu, innerWidth }) => {
     if (innerWidth > 768) {
         showMenu = true
     }
