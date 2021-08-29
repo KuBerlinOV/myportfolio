@@ -2,8 +2,11 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Header = ({ handleShowMenu, showMenu }) => {
+    if (window.innerWidth > 768) {
+        showMenu = true
+    }
     return (
-        <header>
+        <header className='menu-header'>
             <div onClick={handleShowMenu} class={`menu-btn ${showMenu === true && 'close'}`}>
                 <div class="btn-line"></div>
                 <div class="btn-line"></div>
