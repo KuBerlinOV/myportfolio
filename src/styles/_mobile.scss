@@ -7,22 +7,27 @@
 @include mediaLg {
    .menu-header{
     width: 100%;
-    height: 10%;
+    height: 8%;
        .menu-btn{
            display: none;
        }
        .menu{
         width: 100%;
-        height: 10%;
+        height: 8%;
+        background: $another-color;
+        z-index: 10;
            &-nav{
             display: flex;
             flex-direction: row;
             width: 100%;
-            height: 10%;
+            height: 8%;
             justify-content: space-around;
             align-items: flex-start;
             .nav-item{
                 font-size: 0.5em;
+                color: $background-color;
+                position: relative;
+                bottom: 0.6em;
             }
            }
        }

@@ -21,7 +21,15 @@ const App = () => {
             setShowMenu(false)
         }
     }
-
+    console.log(showMenu)
+    // const handleShowContent = () => {
+    //     if (showContent === false) {
+    //         setShowContent(true)
+    //     } else {
+    //         setShowContent(false)
+    //     }
+    // }
+    // console.log(showContent)
     return (
         <BrowserRouter>
             <div>

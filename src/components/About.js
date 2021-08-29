@@ -1,6 +1,5 @@
 import React from 'react';
 import portrait from '../images/portrait.jpg'
-import Header from './Header'
 
 const About = ({ showMenu }) => {
 

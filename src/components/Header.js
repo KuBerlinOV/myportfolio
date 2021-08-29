@@ -1,13 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Header = ({ handleShowMenu, showMenu }) => {
-    if (window.innerWidth > 768) {
+    const innerWidth = window.innerWidth
+    if (innerWidth > 768) {
         showMenu = true
     }
     return (
         <header className='menu-header'>
-            <div onClick={handleShowMenu} class={`menu-btn ${showMenu === true && 'close'}`}>
+            <div onClick={handleShowMenu} class={`menu-btn ${showMenu === true ? 'close' : ''}`}>
                 <div class="btn-line"></div>
                 <div class="btn-line"></div>
                 <div class="btn-line"></div>
@@ -28,7 +29,7 @@ const Header = ({ handleShowMenu, showMenu }) => {
                     </li>
                 </ul>
             </nav>
-        </header>
+        </header >
     )
 }
 
