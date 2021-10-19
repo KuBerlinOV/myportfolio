@@ -22,7 +22,7 @@ body{
         // }
         .md-heading{
             font-weight: 900;
-            font-size: 1.4rem;
+            font-size: 1.2rem;
             
         }
         &#bg-image{
@@ -132,7 +132,7 @@ main{
             width: 100%;
             height: 100%;
             z-index: -1;
-            background: linear-gradient($background-color 23%, white 25%, white 95%, $background-color 97%);
+            background: linear-gradient($background-color 25%, white 28%, white 95%, $background-color 97%);
             opacity: 0.9;
             background-size: cover;
         }
@@ -159,7 +159,7 @@ main{
             flex-direction: column;
             justify-content: space-around;
             width: 50%;
-            height: 100vh;
+            height: 80vh;
             margin: 0 0 2em 0;
             padding: 0em;
             font-weight: 600;   
@@ -198,18 +198,21 @@ main{
         
         .ls-projects{
             display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-            align-items: center;
-            height: calc(100% - 100px);
-            overflow-y: scroll;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: space-around;
+            // height: calc(100% - 100px);
+            // overflow-y: scroll;
             color: black;
             position: relative;
-            height: 100vh;
+            width: 100%;
+            top: 12vh;
+            height: 80vh;
             .project-card{
                 background-color: white;
                 box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
-                width: 90%;
+                width: 350px;
+                height: 350px;
                 position: relative;
                 border-radius: 1.2em;
                 padding: 1em;
